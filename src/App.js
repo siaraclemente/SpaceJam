@@ -11,10 +11,11 @@ class App extends Component {
  }  
 
   componentDidMount() {
-    fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2019-04-01&end_date=2019-04-11")
+    fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2019-03-30&end_date=2019-04-11")
     .then((res) => res.json())
     .then((data) => {
-      this.setState({ photos: data.message })    })
+      this.setState({ photos: data })    
+    })
   }
  
  render() {
