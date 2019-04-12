@@ -3,6 +3,9 @@ import PhotoList from './PhotoList';
 import firebase from './firebaseConfig';
 import './App.css';
 
+
+// You should be able to see my cursor and what I type
+
 class App extends Component {
   constructor(props) {
     super(props);
