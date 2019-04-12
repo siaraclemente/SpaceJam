@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PhotoList from './PhotoList';
+import firebase from './firebaseConfig';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
  }  
 
   componentDidMount() {
+    console.log(firebase.database())
     fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2019-03-30&end_date=2019-04-11")
     .then((res) => res.json())
     .then((data) => {
