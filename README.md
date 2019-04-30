@@ -1,4 +1,4 @@
-# SpaceJame
+# SpaceJam
 
 ### I Made This: 
 https://spacejamm.herokuapp.com/
