@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SpaceJame
 
-## Available Scripts
+### I Made This: 
+https://spacejamm.herokuapp.com/
 
-In the project directory, you can run:
+### What is It?: 
+Pinterest/Instagram blog using NASA's APOD (Astronomy Picture of The Day) API.
 
-### `npm start`
+### Purpose: 
+Post awesome photos directly from NASA. Educational, and simply beautiful.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### This is For: 
+People of any age who enjoy astronomy, or just pretty pictures. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### What It Has/What Was Used:
+* JavaScript
+* React
+* Firebase as My Backend/Database
+* CSS
+* Third-Party API from NASA
 
-### `npm test`
+### Issues I Ran Into:
+* Had to learn Firebase.
+* Had to create a JavaScript function breaking down the API links into strings, and ignoring any YouTube videos posted by NASA.
+* Unable to auto-fill page easily with photos. More complicated than anticipated, has to be done manually at the moment.
+* Time-management: Change of ideas, things taking longer than anticipated, etc.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### If I Had One More Day:
+* Definitely make sure login information is set-up according. I started it, but was unable to finish simply due to time.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### If I Had Two Weeks vs. One Week:
+* Complete MVP Would Be Done: All backend, log-in, all front-end, and would've set up auto-fill
